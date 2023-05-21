@@ -1,0 +1,277 @@
+@font-face {
+  font-family: Cyrene;
+  src: url(cyrene.otf);
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: TieLan;
+  src: url(tielan.ttf);
+  font-weight: regular;
+}
+
+*{
+  margin: 0px;
+  overflow: hidden;
+}
+
+html {
+background-color: #256291;
+}
+
+#char {
+  font-family: TieLan;
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+}
+
+.jia {
+  font-family: TieLan;
+  color: white;
+  font-size: 50px;
+  border-radius: 100px;
+  transition-duration: 1s;
+  position: absolute;
+  bottom: 30px;
+  left: 650px;
+}
+
+.home {
+  text-align:center;
+}
+
+.home:hover{
+  background-color: #256291;
+  border-color: white;
+  cursor: pointer;
+}
+
+button {
+  color: white;
+  background-color: #256291;
+  width: 80px;
+  height:80px;
+  border: solid white;
+  border-radius: 100px;
+  transition-duration: 1s;
+}
+
+button:hover {
+  background-color: white;
+  color: #256291;
+  cursor: pointer;
+}
+
+#prev-btn {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+#next-btn {
+  position: absolute; 
+  bottom: 50px;
+  right: 50px;
+}
+
+.circle1 {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  height: 400px;
+  width: 400px;
+  display:block;
+  border: 3px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-animation: growUp 4s;
+  -moz-animation: growUp 4s;
+  -ms-animation: growUp 4s;
+  -o-animation: growUp 4s;
+  animation: growUp 2.6s;
+  animation-iteration-count: infinite;
+}
+
+.circle2 {
+  position: absolute;
+  left: 100px;
+  bottom: -150px;
+  height: 380px;
+  width: 380px;
+  display:block;
+  border: 3px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-animation: growUp 3s;
+   -moz-animation: growUp 3s;
+   -ms-animation: growUp 3s;
+   -o-animation: growUp 3s;
+   animation: growUp 2.6s;
+   animation-iteration-count: infinite;
+}
+
+.circle3 {
+   position: absolute;
+   right: 500px;
+   bottom: 40px;
+   height: 360px;
+   width: 360px;
+   display:block;
+   border: 3px solid white;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+  -webkit-animation: growUp 3s;
+   -moz-animation: growUp 3s;
+   -ms-animation: growUp 3s;
+   -o-animation: growUp 3s;
+   animation: growUp 2.6s;
+   animation-iteration-count: infinite;
+}
+
+.circle4 {
+   position: absolute;
+   right: -20px;
+   top: 50px;
+   height: 440px;
+   width: 440px;
+   display:block;
+   border: 3px solid white;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+  -webkit-animation: growUp 3s;
+   -moz-animation: growUp 3s;
+   -ms-animation: growUp 3s;
+   -o-animation: growUp 3s;
+   animation: growUp 2.6s;
+   animation-iteration-count: infinite;
+}
+
+.circle5 {
+   position: absolute;
+   left: 470px;
+   top: 50px;
+   height: 300px;
+   width: 300px;
+   display:block;
+   border: 3px solid white;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+  -webkit-animation: growUp 3s;
+   -moz-animation: growUp 3s;
+   -ms-animation: growUp 3s;
+   -o-animation: growUp 3s;
+   animation: growUp 2.6s;
+   animation-iteration-count: infinite;
+}
+
+.circle6 {
+   position: absolute;
+   left: 300px;
+   bottom: 80px;
+   height: 280px;
+   width: 280px;
+   display:block;
+   border: 3px solid white;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+  -webkit-animation: growUp 3s;
+   -moz-animation: growUp 3s;
+   -ms-animation: growUp 3s;
+   -o-animation: growUp 3s;
+   animation: growUp 2.6s;
+   animation-iteration-count: infinite;
+}
+
+.circle7 {
+   position: absolute;
+   bottom: 100px;
+   right: 400px;
+   height: 120px;
+   width: 120px;
+   display:block;
+   border: 3px solid white;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+  -webkit-animation: growUp 3s;
+   -moz-animation: growUp 3s;
+   -ms-animation: growUp 3s;
+   -o-animation: growUp 3s;
+   animation: growUp 2.6s;
+   animation-iteration-count: infinite;
+}
+
+.circle8 {
+   position: absolute;
+   right: 150px;
+   bottom: -70px;
+   height: 230px;
+   width: 230px;
+   display:block;
+   border: 3px solid white;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+  -webkit-animation: growUp 3s;
+   -moz-animation: growUp 3s;
+   -ms-animation: growUp 3s;
+   -o-animation: growUp 3s;
+   animation: growUp 2.6s;
+   animation-iteration-count: infinite;
+}
+
+.circle9 {
+   position: absolute;
+   top: 10px;
+   right: 280px;
+   height: 210px;
+   width: 210px;
+   display:block;
+   border: 3px solid white;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+  -webkit-animation: growUp 3s;
+   -moz-animation: growUp 3s;
+   -ms-animation: growUp 3s;
+   -o-animation: growUp 3s;
+   animation: growUp 2.6s;
+   animation-iteration-count: infinite;
+}
+
+.circle10 {
+   position: absolute;
+   top: 180px; 
+   left: 250px;
+   height: 180px;
+   width: 180px;
+   display:block;
+   border: 3px solid white;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+  -webkit-animation: growUp 3s;
+   -moz-animation: growUp 3s;
+   -ms-animation: growUp 3s;
+   -o-animation: growUp 3s;
+   animation: growUp 2.6s;
+   animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes growUp {
+   0%  { -webkit-transform: scale(0); }
+   100% { -webkit-transform: scale(1); }
+}
+@keyframes growUp {
+   0%  { transform: scale(0); }
+   100% { transform: scale(1); }
+}

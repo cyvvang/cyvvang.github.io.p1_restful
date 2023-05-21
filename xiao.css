@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Cyrene;
+  src: url(cyrene.otf);
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: TieLan;
+  src: url(tielan.ttf);
+  font-weight: regular;
+}
+
+*{
+  margin: 0px;
+}
+
+.bg-image {
+ 
+  width: 100vw; 
+  height: 100vh; 
+   position: relative;
+  background-image: url("https://cdn.glitch.global/abc88cbd-c41c-406c-bed6-8bbf19efc9e8/morning.png?v=1678122340185");
+  background-color: #256291;
+  background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#char {
+  font-family: TieLan;
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+}
+
+.jia {
+  font-family: TieLan;
+  color: white;
+  font-size: 50px;
+  border-radius: 100px;
+  transition-duration: 1s;
+  position: absolute;
+  bottom: 30px;
+  left: 650px;
+}
+
+.home {
+  text-align:center;
+}
+
+.home:hover{
+  background-color: #256291;
+  border-color: white;
+  cursor: pointer;
+}
+
+button {
+  color: white;
+  background-color: #256291;
+  width: 80px;
+  height:80px;
+  border: solid white;
+  border-radius: 100px;
+  transition-duration: 1s;
+}
+
+button:hover {
+  background-color: white;
+  color: #256291;
+  cursor: pointer;
+}
+
+#prev-btn {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+#next-btn {
+  position: absolute; 
+  bottom: 50px;
+  right: 50px;
+}

@@ -1,0 +1,101 @@
+@font-face {
+  font-family: Cyrene;
+  src: url(cyrene.otf);
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: TieLan;
+  src: url(tielan.ttf);
+  font-weight: regular;
+}
+
+*{
+  margin: 0px;
+}
+
+.bg-image {
+   width: 100vw; 
+   height: 100vh; 
+   position: relative;
+   background-image: url("https://cdn.glitch.global/abc88cbd-c41c-406c-bed6-8bbf19efc9e8/Home-Background-Tree.png?v=1677978355821");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+body {
+  font-family: Cyrene;
+  background-color: #256291;
+  color: white;
+}
+
+.button {
+  font-family: TieLan;
+  font-size: 50px;
+  text-align: center;
+  width: 150px;
+  height:150px;
+  border: none;
+  color: white;
+  border-color: #256291;
+  border-radius: 100px;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.button:hover {
+  border-color: white;
+  background-color: #256291;
+  color: #256291;
+}
+
+@keyframes glowing {
+  0% {
+    background-color: white;
+    box-shadow: 0 0 0px white;
+  }
+  50% {
+    background-color: white;
+    box-shadow: 0 0 50px white;
+  }
+  100% {
+    background-color: white;
+    box-shadow: 0 0 0px white;
+  }
+}
+
+.button {
+  animation: glowing 6s infinite;
+}
+
+#xiao-btn {
+  position: absolute;
+  top: 45px;
+  left:380px;
+}
+
+#jing-btn {
+  position: absolute;
+  top: 120px;
+  right: 540px;
+}
+
+#kui-btn {
+  position: absolute;
+  top: 160px;
+  right: 210px;
+}
+
+#rong-btn {
+  position: absolute;
+  bottom: 40px;
+  left: 230px;
+}
+
+p {
+  font-size: 50px;
+  transform: rotate(270deg);
+  position: absolute;
+  left: -140px;
+  top: 200px;
+}
