@@ -11,13 +11,13 @@
 }
 
 *{
-  margin: none;
-  padding: none;
+  margin: 0;
+  bottom: 0px;
   overflow: hidden;
 }
 
 html {
-background-color: #256291;
+  background-color: #256291;
 }
 
 #char {
@@ -35,13 +35,9 @@ background-color: #256291;
   font-size: 50px;
   border-radius: 100px;
   transition-duration: 1s;
-  position: absolute;
+  position: fixed;
   bottom: 30px;
-  left: 650px;
-}
-
-.home {
-  text-align:center;
+  left: 50%;
 }
 
 .home:hover{
@@ -78,132 +74,56 @@ button:hover {
   right: 50px;
 }
 
-.images {
-  transform: scale(0.6);
--webkit-animation:spin 10s linear infinite;
-  -moz-animation:spin 10s linear infinite;
-  animation:spin 10s linear infinite;
-}
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotate(360deg); } 
-}
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
-}
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
-        transform:rotate(360deg); 
-    } 
-}
-#fig1{
+#fig1, #fig2, #fig3, #fig4, #fig5, #fig6 {
+  scale: 60%;
+  position: absolute;
   -webkit-animation:spin 10s linear infinite;
   -moz-animation:spin 10s linear infinite;
   animation:spin 10s linear infinite;
 }
 @-moz-keyframes spin { 
-    100% { -moz-transform: rotate(360deg); } 
+  100% { -moz-transform: rotate(360deg); } 
 }
 @-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
+  100% { -webkit-transform: rotate(360deg); } 
 }
 @keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
-        transform:rotate(360deg); 
-    } 
+  100% { 
+      -webkit-transform: rotate(360deg); 
+      transform:rotate(360deg); 
+  } 
+}
+
+#fig1{
+  left: 60px;
+  bottom: -75px;
 }
 
 #fig2{
-  -webkit-animation:spin 10s linear infinite;
-  -moz-animation:spin 10s linear infinite;
-  animation:spin 10s linear infinite;
-}
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotate(360deg); } 
-}
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
-}
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
-        transform:rotate(360deg); 
-    } 
+  bottom: -30px;
+  left: 330px;
 }
 
 #fig3{
-  -webkit-animation:spin 10s linear infinite;
-  -moz-animation:spin 10s linear infinite;
-  animation:spin 10s linear infinite;
-}
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotate(360deg); } 
-}
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
-}
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
-        transform:rotate(360deg); 
-    } 
+  top: -19%;
+  left: -3%;
 }
 
 
 #fig4{
-  -webkit-animation:spin 10s linear infinite;
-  -moz-animation:spin 10s linear infinite;
-  animation:spin 10s linear infinite;
-}
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotate(360deg); } 
-}
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
-}
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
-        transform:rotate(360deg); 
-    } 
+  right: 10%;
+  bottom: -80px;
 }
 
 
 #fig5{
-  -webkit-animation:spin 10s linear infinite;
-  -moz-animation:spin 10s linear infinite;
-  animation:spin 10s linear infinite;
-}
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotate(360deg); } 
-}
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
-}
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
-        transform:rotate(360deg); 
-    } 
+  right: -13%;
+  top: 17%;
 }
 
 #fig6{
-  -webkit-animation:spin 10s linear infinite;
-  -moz-animation:spin 10s linear infinite;
-  animation:spin 10s linear infinite;
-}
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotate(360deg); } 
-}
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
-}
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
-        transform:rotate(360deg); 
-    } 
+  top: -10%;
+  right: 19%
 }
 
 

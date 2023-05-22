@@ -34,9 +34,9 @@ background-color: #256291;
   font-size: 50px;
   border-radius: 100px;
   transition-duration: 1s;
-  position: absolute;
+  position: fixed;
   bottom: 30px;
-  left: 650px;
+  left: 50%;
 }
 
 .home {
@@ -77,24 +77,32 @@ button:hover {
   right: 50px;
 }
 
+.circle1, .circle2, .circle3, .circle4, .circle5, .circle6, .circle7, .circle8, .circle9, .circle10 {
+  display:block;
+  border: 3px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.circle1, .circle4, .circle5 {
+  animation: growUp 5s;
+  animation-iteration-count: infinite;
+
+
+}
+.circle6, .circle7, .circle9, .circle10 {
+  animation: growUp 4s;
+  animation-iteration-count: infinite;
+}
+
 .circle1 {
   position: absolute;
   top: -50px;
   left: -50px;
   height: 400px;
   width: 400px;
-  display:block;
-  border: 3px solid white;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  -webkit-animation: growUp 4s;
-  -moz-animation: growUp 4s;
-  -ms-animation: growUp 4s;
-  -o-animation: growUp 4s;
-  animation: growUp 2.6s;
-  animation-iteration-count: infinite;
-}
+} 
 
 .circle2 {
   position: absolute;
@@ -102,17 +110,8 @@ button:hover {
   bottom: -150px;
   height: 380px;
   width: 380px;
-  display:block;
-  border: 3px solid white;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  -webkit-animation: growUp 3s;
-   -moz-animation: growUp 3s;
-   -ms-animation: growUp 3s;
-   -o-animation: growUp 3s;
-   animation: growUp 2.6s;
-   animation-iteration-count: infinite;
+  animation: growUp 4s;
+  animation-iteration-count: infinite;
 }
 
 .circle3 {
@@ -121,17 +120,8 @@ button:hover {
    bottom: 40px;
    height: 360px;
    width: 360px;
-   display:block;
-   border: 3px solid white;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   border-radius: 50%;
-  -webkit-animation: growUp 3s;
-   -moz-animation: growUp 3s;
-   -ms-animation: growUp 3s;
-   -o-animation: growUp 3s;
-   animation: growUp 2.6s;
-   animation-iteration-count: infinite;
+   animation: growUp 4s;
+  animation-iteration-count: infinite;
 }
 
 .circle4 {
@@ -140,17 +130,6 @@ button:hover {
    top: 50px;
    height: 440px;
    width: 440px;
-   display:block;
-   border: 3px solid white;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   border-radius: 50%;
-  -webkit-animation: growUp 3s;
-   -moz-animation: growUp 3s;
-   -ms-animation: growUp 3s;
-   -o-animation: growUp 3s;
-   animation: growUp 2.6s;
-   animation-iteration-count: infinite;
 }
 
 .circle5 {
@@ -159,17 +138,6 @@ button:hover {
    top: 50px;
    height: 300px;
    width: 300px;
-   display:block;
-   border: 3px solid white;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   border-radius: 50%;
-  -webkit-animation: growUp 3s;
-   -moz-animation: growUp 3s;
-   -ms-animation: growUp 3s;
-   -o-animation: growUp 3s;
-   animation: growUp 2.6s;
-   animation-iteration-count: infinite;
 }
 
 .circle6 {
@@ -178,17 +146,6 @@ button:hover {
    bottom: 80px;
    height: 280px;
    width: 280px;
-   display:block;
-   border: 3px solid white;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   border-radius: 50%;
-  -webkit-animation: growUp 3s;
-   -moz-animation: growUp 3s;
-   -ms-animation: growUp 3s;
-   -o-animation: growUp 3s;
-   animation: growUp 2.6s;
-   animation-iteration-count: infinite;
 }
 
 .circle7 {
@@ -196,18 +153,7 @@ button:hover {
    bottom: 100px;
    right: 400px;
    height: 120px;
-   width: 120px;
-   display:block;
-   border: 3px solid white;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   border-radius: 50%;
-  -webkit-animation: growUp 3s;
-   -moz-animation: growUp 3s;
-   -ms-animation: growUp 3s;
-   -o-animation: growUp 3s;
-   animation: growUp 2.6s;
-   animation-iteration-count: infinite;
+   width: 120px;  
 }
 
 .circle8 {
@@ -216,17 +162,8 @@ button:hover {
    bottom: -70px;
    height: 230px;
    width: 230px;
-   display:block;
-   border: 3px solid white;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   border-radius: 50%;
-  -webkit-animation: growUp 3s;
-   -moz-animation: growUp 3s;
-   -ms-animation: growUp 3s;
-   -o-animation: growUp 3s;
-   animation: growUp 2.6s;
-   animation-iteration-count: infinite;
+   animation: growUp 3s;
+  animation-iteration-count: infinite;
 }
 
 .circle9 {
@@ -235,17 +172,6 @@ button:hover {
    right: 280px;
    height: 210px;
    width: 210px;
-   display:block;
-   border: 3px solid white;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   border-radius: 50%;
-  -webkit-animation: growUp 3s;
-   -moz-animation: growUp 3s;
-   -ms-animation: growUp 3s;
-   -o-animation: growUp 3s;
-   animation: growUp 2.6s;
-   animation-iteration-count: infinite;
 }
 
 .circle10 {
@@ -254,24 +180,11 @@ button:hover {
    left: 250px;
    height: 180px;
    width: 180px;
-   display:block;
-   border: 3px solid white;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   border-radius: 50%;
-  -webkit-animation: growUp 3s;
-   -moz-animation: growUp 3s;
-   -ms-animation: growUp 3s;
-   -o-animation: growUp 3s;
-   animation: growUp 2.6s;
+   animation: growUp 3s;
    animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes growUp {
+@keyframes growUp {
    0%  { -webkit-transform: scale(0); }
    100% { -webkit-transform: scale(1); }
-}
-@keyframes growUp {
-   0%  { transform: scale(0); }
-   100% { transform: scale(1); }
 }

@@ -33,9 +33,9 @@ background-color: #256291;
   font-size: 50px;
   border-radius: 100px;
   transition-duration: 1s;
-  position: absolute;
+  position: fixed;
   bottom: 30px;
-  left: 650px;
+  left: 50%;
 }
 
 .home {
